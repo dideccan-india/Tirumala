@@ -1,0 +1,23 @@
+/* Map page. Reuses .booking and .mode-switch (Hotels.css, Cars.css), .type-pills and .more-places (Cars.css, Temples.css). */
+.map-layout{display:grid;grid-template-columns:minmax(0,370px) minmax(0,1fr);gap:var(--space-4);margin-top:var(--space-4);align-items:start}
+.map-panel{position:static}
+.map-swap{display:block;margin:.25rem 0 .25rem auto;padding:0;color:var(--color-kumkum);font-weight:600;text-decoration:none}
+
+.map-frame-wrap{border:1px solid var(--color-border-light);border-radius:var(--radius-md);overflow:hidden;background:var(--color-surface-alt);
+  height:clamp(380px,70vh,640px);position:sticky;top:var(--space-4)}
+.map-frame{width:100%;height:100%;border:0;display:block}
+
+.route-card{margin-top:var(--space-3);background:var(--color-stone);border-radius:var(--radius-sm);padding:var(--space-3)}
+.route-card__main{display:flex;gap:var(--space-4);margin-bottom:var(--space-2)}
+.route-card__main div{display:flex;flex-direction:column}
+.route-card__main strong{font-family:var(--font-display);font-size:1.6rem;font-weight:400;line-height:1.1}
+.route-card__main span{font-size:.85rem;color:var(--color-subtle)}
+.route-card small{color:var(--color-subtle)}
+
+.map-nearby{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-5);margin-top:var(--space-4)}
+
+@media (max-width:991.98px){
+  .map-layout{grid-template-columns:1fr}
+  .map-frame-wrap{position:static;order:-1;height:340px}
+  .map-nearby{grid-template-columns:1fr}
+}

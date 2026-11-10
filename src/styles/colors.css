@@ -1,0 +1,28 @@
+/* Brand colours. Use these variables everywhere; never hardcode a colour. */
+:root{
+  --color-night:#14122b;
+  --color-night-rgb:20,18,43;
+  --color-night-deep:#0d0b1f;
+  --color-night-deep-rgb:13,11,31;
+  --color-night-line:#2c2860;
+  --color-gold:#e2b04a;
+  --color-gold-rgb:226,176,74;
+  --color-gold-light:#f0c468;
+  --color-gold-muted:#8a7a45;
+  --color-sheen-rgb:255,226,140;
+  --color-kumkum:#b3261e;
+  --color-stone:#f1eff6;
+  --color-white:#fff;
+  --color-black-rgb:0,0,0;
+  --color-ink:#1b1930;
+  --color-muted:#8c88a8;
+  --color-subtle:#5b5780;
+  --color-text-light:#e6e3f5;
+  --color-text-soft:#d8d4ee;
+  --color-text-dim:#bbb7d6;
+  --color-cream:#f3ecd4;
+  --color-border-light:#d6d2e6;
+  --color-border-dark:#4a4478;
+  --color-field-border:#cfcbe3;
+  --color-surface-alt:#e7e4f1;
+}

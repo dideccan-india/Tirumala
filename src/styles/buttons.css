@@ -1,0 +1,27 @@
+/* Bootstrap button colours: <Button color="gold"> and <Button outline color="gold"> */
+.btn{--bs-btn-border-radius:var(--radius-pill);--bs-btn-font-weight:700;--bs-btn-padding-x:1.4rem}
+
+.btn-gold{
+  --bs-btn-color:var(--color-night);
+  --bs-btn-bg:var(--color-gold);
+  --bs-btn-border-color:var(--color-gold);
+  --bs-btn-hover-color:var(--color-night);
+  --bs-btn-hover-bg:var(--color-gold-light);
+  --bs-btn-hover-border-color:var(--color-gold-light);
+  --bs-btn-active-color:var(--color-night);
+  --bs-btn-active-bg:var(--color-gold-light);
+  --bs-btn-active-border-color:var(--color-gold-light);
+  --bs-btn-focus-shadow-rgb:var(--color-gold-rgb);
+}
+
+.btn-outline-gold{
+  --bs-btn-color:var(--color-cream);
+  --bs-btn-border-color:var(--color-gold-muted);
+  --bs-btn-hover-color:var(--color-night);
+  --bs-btn-hover-bg:var(--color-gold);
+  --bs-btn-hover-border-color:var(--color-gold);
+  --bs-btn-active-color:var(--color-night);
+  --bs-btn-active-bg:var(--color-gold);
+  --bs-btn-active-border-color:var(--color-gold);
+  --bs-btn-focus-shadow-rgb:var(--color-gold-rgb);
+}

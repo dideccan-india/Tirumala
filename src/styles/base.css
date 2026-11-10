@@ -1,0 +1,14 @@
+/* Bootstrap variable overrides + global element styles */
+:root{
+  --bs-body-font-family:var(--font-body);
+  --bs-body-color:var(--color-ink);
+  --bs-body-bg:var(--color-stone);
+  --bs-body-font-size:1.05rem;
+  --bs-link-color:var(--color-kumkum);
+  --bs-link-hover-color:var(--color-kumkum);
+}
+html{scroll-behavior:smooth}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--color-gold);outline-offset:3px}
+.is-hidden{opacity:0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}

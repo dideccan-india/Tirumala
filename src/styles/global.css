@@ -1,0 +1,6 @@
+/* Bootstrap itself is imported in main.jsx, before this file. */
+@import './colors.css';
+@import './typography.css';
+@import './layout.css';
+@import './base.css';
+@import './buttons.css';

@@ -1,0 +1,21 @@
+/* Temples pages. Reuses .hotel-card, .hotel-bar, .gallery, .booking from Hotels.css and .type-pills, .included from Cars.css. */
+.temple-img{position:relative;overflow:hidden;background:var(--color-surface-alt)}
+.temple-img img{width:100%;height:100%;object-fit:cover;display:block}
+.hotel-card .temple-img{min-height:190px}
+.temple-hero{border-radius:var(--radius-md);height:clamp(240px,45vw,460px)}
+.gallery__thumbs .temple-img{width:100%;height:100%}
+
+.temple-info{position:sticky;top:var(--space-4)}
+.temple-info dl{margin:0 0 var(--space-3)}
+.temple-info dl>div{padding:.6rem 0;border-bottom:1px solid var(--color-border-light)}
+.temple-info dt{font-size:.9rem;font-weight:600;color:var(--color-subtle)}
+.temple-info dd{margin:0}
+.temple-info__note{font-size:.9rem;color:var(--color-subtle)}
+
+.more-places{display:grid;gap:var(--space-2);padding:0}
+.more-places a{display:flex;justify-content:space-between;gap:var(--space-3);padding:.8rem 1rem;
+  background:var(--color-white);border:1px solid var(--color-border-light);border-radius:var(--radius-sm)}
+.more-places a:hover{border-color:var(--color-gold)}
+.more-places span{color:var(--color-subtle);white-space:nowrap}
+
+@media (max-width:991.98px){.temple-info{position:static}}
